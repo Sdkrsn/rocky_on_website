@@ -35,7 +35,7 @@ echo 📍 Open http://localhost:5000 in your browser
 echo 🤖 Rocky is walking and ready to chat!
 echo.
 
-python web_app.py
+python main.py
 
 pause
 
