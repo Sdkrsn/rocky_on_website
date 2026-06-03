@@ -112,4 +112,5 @@ if __name__ == "__main__":
     print("Sprites: Loaded from sprites/ folder")
     print("\n" + "="*50 + "\n")
     
-    app.run(debug=True, port=5000, use_reloader=False)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=False, use_reloader=False)
